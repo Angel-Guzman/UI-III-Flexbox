@@ -22,6 +22,8 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	border: 1px solid gray;
+	box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -47,20 +49,19 @@ table {
 	border-spacing: 0;
 }
 
-/* Set every element's box-sizing to border-box */
+/* Code starts */
+
 * {
-    box-sizing: border-box;
+	
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+/* nav code starts */
+
+nav {
+	display: flex;
+	align-items: center;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
-}
+.links {
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+}
