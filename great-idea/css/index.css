@@ -84,12 +84,12 @@ time,
 mark,
 audio,
 video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -104,45 +104,45 @@ hgroup,
 menu,
 nav,
 section {
-	display: block;
+    display: block;
 }
 
 body {
-	line-height: 1;
+    line-height: 1;
 }
 
 ol,
 ul {
-	list-style: none;
+    list-style: none;
 }
 
 blockquote,
 q {
-	quotes: none;
+    quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html,
 body {
-	height: 100%;
-	font-family: 'Titillium Web', sans-serif;
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 h1,
@@ -150,40 +150,24 @@ h2,
 h3,
 h4,
 h5 {
-	font-family: 'Bangers', cursive;
-	letter-spacing: 1px;
-	margin-bottom: 15px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
 }
 
 /* Your code starts here! */
 
-
-
 /* nav code starts */
-
 nav {
-	display: flex;
-	justify-content: space-evenly;
-
-
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 a {
-	text-decoration: none;
-	color: gray;
-	margin-left: 80px;
-	margin-top: 20px;
-}
-
-.links {
-	display: flex;
-	justify-content: center;
-
-}
-
-.logo {
-	margin-left: 200px;
-	margin-top: 10px;
+    text-decoration: none;
+    color: grey;
 }
 
 /* nav code ends */
@@ -191,193 +175,179 @@ a {
 
 /* header code starts */
 header {
-	display: flex;
-	justify-content: space-around;
-	margin: 50px;
+    display: flex;
+    justify-content: space-around;
+
 }
 
-.innovation {
-	font-size: 80px;
-	display: flex;
-	text-align: center;
-	flex-direction: column;
-	margin-top: 50px;
+.header-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.start {
-	background: white;
-	border: 1px solid black;
-	margin-left: 80px;
-	width: 50%;
-	height: 10%;
-	font-family: 'Titillium Web', sans-serif;
+h1 {
+    font-size: 70px;
+    text-align: center;
+    width: 40%;
+
+}
+
+.start-button {
+    width: 30%;
+    height: 10%;
+    ;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    margin-left: 8%;
+    background-color: white;
+    border: 1px solid black;
 }
 
 /* header code ends */
 
 
-
-/* top content starts */
-.top-content {
-	display: flex;
-	justify-content: center;
-
+/* middle-content code starts */
+.middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .features {
-	width: 30%;
-	margin: 10px;
+    width: 30%;
+    margin: 4%;
 }
 
 .about {
-	width: 30%;
-	margin: 10px;
+    width: 30%;
+    margin: 4%;
 }
 
-/* top content ends */
+/* middle-content code ends */
 
-.middle-img {
-	display: flex;
-	justify-content: center;
-	margin: 20px;
-}
 
-/* bottom content starts */
-
-.bottom-content {
-	display: flex;
-	justify-content: center;
+/* middlebottom-content code ends */
+.middlebottom-content {
+    display: flex;
+    justify-content: center;
 }
 
 .services {
-	width: 25%;
-	margin: 10px;
+    width: 20%;
+    margin: 4%;
+
 }
 
 .product {
-	width: 25%;
-	margin: 10px;
+    width: 20%;
+    margin: 4%;
+
 }
 
 .vision {
-	width: 25%;
-	margin: 10px;
+    width: 20%;
+    margin: 4%;
+
 }
 
-/* bottom content ends */
+/* middlebottom-content code ends */
 
 
-/* contact content starts */
-.last-content {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin-left: 11%;
+/* contact code starts */
+.bottom-content {
+    display: flex;
+    justify-content: flex-start;
+
 }
 
-/* contact content ends */
+.contact {
+    margin-left: 12%;
+}
 
-/* footer content starts */
+/* contact code ends */
+
+
+
+/* footer code starts */
 footer {
-	display: flex;
-	justify-content: center;
-	margin: 2%;
+    text-align: center;
+    margin: 20px;
 }
 
-/* footer content ends */
+/* footer code ends */
+/* home page ends*/
 
 
-
-
-/* services page starts (using same nav)*/
-
+/* services code starts*/
 .services-header-img {
-	display: flex;
-	justify-content: center;
-	margin: 30px;
-
-}
-
-.first-content {
-	display: flex;
-	justify-content: center;
-
-
+    display: flex;
+    justify-content: center;
 }
 
 .services2 {
-	width: 70%;
-}
-
-#bigger {
-	font-size: 40px;
-}
-
-/* services page ends */
-
-/*  second/third/fourth content starts */
-.second-content {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	flex-direction: row;
-}
-
-.third-content {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	flex-direction: row;
-}
-
-.fourth-content {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	flex-direction: row;
-}
-.design {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	width: 25%;
-	margin: 10px;
-	padding: 10px;
-	border: 1px solid black;
-	background-color: lightblue;
-}
-
-
-/*  second/third content stops */
-
-
-/* fifth content starts */
-.fifth-content {
-	display: flex;
-	justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 3%;
 
 
 }
 
+.services-header {
+    font-size: 30px;
+}
+
+/* services code ends*/
+
+
+/* learnmore code starts*/
+.learnmore {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.morebox {
+    width: 30%;
+    margin: 3%;
+    border: 1px solid black;
+    padding: 1%;
+    background-color: lightblue;
+}
+
+.learnmorebutton {
+    margin-top: 3%;
+    padding: 2%;
+    background-color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    border: 1px solid black;
+
+}
+
+/* learnmore code ends*/
+
+
+/* facts code starts */
 .facts {
-	width: 40%;
-	
+    display: flex;
+    justify-content: center;
 }
 
-.services-info-img {
-	display: flex;
-	justify-content: right;
-}
-
-.list {
-	margin-top: 20px;
-	margin-left: 20px;
-	font-size: 18px;
-	
+.facts-text {
+    width: 40%;
 }
 
 ul {
-	list-style-type: square;
+    list-style-type: disc;
+    margin-left: 4%;
 }
-/* fifth content stops */
 
+.services-info-img {
+    margin-left: 5%;
+}
+
+/* facts code ends */
