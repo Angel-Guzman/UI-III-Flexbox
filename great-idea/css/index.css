@@ -179,10 +179,9 @@ a {
 	display: flex;
 	justify-content: center;
 
-
 }
 
-img.logo {
+.logo {
 	margin-left: 200px;
 	margin-top: 10px;
 }
@@ -205,7 +204,7 @@ header {
 	margin-top: 50px;
 }
 
-button {
+.start {
 	background: white;
 	border: 1px solid black;
 	margin-left: 80px;
@@ -221,16 +220,163 @@ button {
 /* top content starts */
 .top-content {
 	display: flex;
+	justify-content: center;
+
 }
-.top-content div {
-	display: flex;
-	flex-direction: column;
+
+.features {
+	width: 30%;
+	margin: 10px;
 }
+
+.about {
+	width: 30%;
+	margin: 10px;
+}
+
 /* top content ends */
+
+.middle-img {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+}
+
+/* bottom content starts */
 
 .bottom-content {
 	display: flex;
+	justify-content: center;
 }
-.bottom-content div {
-	
+
+.services {
+	width: 25%;
+	margin: 10px;
 }
+
+.product {
+	width: 25%;
+	margin: 10px;
+}
+
+.vision {
+	width: 25%;
+	margin: 10px;
+}
+
+/* bottom content ends */
+
+
+/* contact content starts */
+.last-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 11%;
+}
+
+/* contact content ends */
+
+/* footer content starts */
+footer {
+	display: flex;
+	justify-content: center;
+	margin: 2%;
+}
+
+/* footer content ends */
+
+
+
+
+/* services page starts (using same nav)*/
+
+.services-header-img {
+	display: flex;
+	justify-content: center;
+	margin: 30px;
+
+}
+
+.first-content {
+	display: flex;
+	justify-content: center;
+
+
+}
+
+.services2 {
+	width: 70%;
+}
+
+#bigger {
+	font-size: 40px;
+}
+
+/* services page ends */
+
+/*  second content starts */
+
+.design {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 30%;
+}
+.design1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 30%;
+}
+.design2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 30%;
+}
+.design3 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 30%;
+}
+.design4 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 30%;
+}
+.design5 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 30%;
+}
+
+/*  second/third content stops */
+
+
+/* third content starts */
+.third-content {
+	display: flex;
+	justify-content: center;
+
+
+}
+
+.facts {
+	width: 40%;
+}
+
+
+.list{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.services-info-img {
+	display: flex;
+	justify-content: right;
+}
+/* third content stops */
