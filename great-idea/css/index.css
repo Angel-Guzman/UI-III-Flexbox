@@ -3,48 +3,135 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
@@ -52,15 +139,215 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+/* nav code starts */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+/* nav code ends */
+
+
+/* header code starts */
+header {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.header-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    width: 40%;
+
+}
+
+.start-button {
+    width: 30%;
+    height: 10%;
+    ;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    margin-left: 8%;
+    background-color: white;
+    border: 1px solid black;
+}
+
+/* header code ends */
+
+
+/* middle-content code starts */
+.middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.features {
+    width: 30%;
+    margin: 4%;
+}
+
+.about {
+    width: 30%;
+    margin: 4%;
+}
+
+/* middle-content code ends */
+
+
+/* middlebottom-content code ends */
+.middlebottom-content {
+    display: flex;
+    justify-content: center;
+}
+
+.services {
+    width: 20%;
+    margin: 4%;
+
+}
+
+.product {
+    width: 20%;
+    margin: 4%;
+
+}
+
+.vision {
+    width: 20%;
+    margin: 4%;
+
+}
+
+/* middlebottom-content code ends */
+
+
+/* contact code starts */
+.bottom-content {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.contact {
+    margin-left: 12%;
+}
+
+/* contact code ends */
+
+
+
+/* footer code starts */
+footer {
+    text-align: center;
+    margin: 20px;
+}
+
+/* footer code ends */
+/* home page ends*/
+
+
+/* services code starts*/
+.services-header-img {
+    display: flex;
+    justify-content: center;
+}
+
+.services2 {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 3%;
+
+
+}
+
+.services-header {
+    font-size: 30px;
+}
+
+/* services code ends*/
+
+
+/* learnmore code starts*/
+.learnmore {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.morebox {
+    width: 30%;
+    margin: 3%;
+    border: 1px solid black;
+    padding: 1%;
+    background-color: lightblue;
+}
+
+.learnmorebutton {
+    margin-top: 3%;
+    padding: 2%;
+    background-color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    border: 1px solid black;
+
+}
+
+/* learnmore code ends*/
+
+
+/* facts code starts */
+.facts {
+    display: flex;
+    justify-content: center;
+}
+
+.facts-text {
+    width: 40%;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 4%;
+}
+
+.services-info-img {
+    margin-left: 5%;
+}
+
+/* facts code ends */
